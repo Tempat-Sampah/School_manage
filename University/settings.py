@@ -15,10 +15,10 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # SECURITY WARNING: don't run with debug turned on in production!
 
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['school-manage-jvd6cg.darkube']
 # BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-SECRET_KEY = config('SECRET_KEY')
-DEBUG = config('DEBUG', cast=bool)
+SECRET_KEY = 'django-insecure-$wmy7w146)1tfk*4k8o$&1a$#0i-y_m@rjj!v_(38k-18jm@y9'
+DEBUG = False
 
 # Application definition
 
