@@ -14,11 +14,11 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 # SECURITY WARNING: don't run with debug turned on in production!
 
-
+ALLOWED_HOSTS=['']
 ALLOWED_HOSTS = os.getenv("ALLOWED_HOSTS").split(",")
-# BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-# SECRET_KEY = 'django-insecure-$wmy7w146)1tfk*4k8o$&1a$#0i-y_m@rjj!v_(38k-18jm@y9'
-SECRET_KEY = os.getenv("SECRET_KEY")
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+SECRET_KEY = 'django-insecure-$wmy7w146)1tfk*4k8o$&1a$#0i-y_m@rjj!v_(38k-18jm@y9'
+# SECRET_KEY = os.getenv("SECRET_KEY")
 DEBUG = False
 
 # Application definition
@@ -92,11 +92,11 @@ WSGI_APPLICATION = "University.wsgi.application"
 DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.postgresql_psycopg2",
-        "NAME": os.getenv("DB_NAME"),
-        "USER": os.getenv("DB_USER"),
-        "PASSWORD": os.getenv("DB_PASSWORD"),
-        "HOST": os.getenv("DB_HOST"),
-        "PORT": os.getenv("DB_PORT"),
+        "NAME": "postgres",
+        "USER": "postgres",
+        "PASSWORD": "GmNbvDOnkFOZB3WiSDG8RgMrVzL2rZ9o",
+        "HOST": "5309c5de-1af9-4607-b08e-2f231ae679fe.hsvc.ir:30937",
+        "PORT": "30937",
     }
 }
 
