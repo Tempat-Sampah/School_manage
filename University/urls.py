@@ -13,8 +13,8 @@ urlpatterns = [
     path("student/", include("student.urls", namespace="Student")),
     path("institute/", include("institute.urls", namespace="Institute")),
     path("", include("config.urls", namespace="config")),
-    path("ckeditor/", include("ckeditor_uploader.urls")),
-    path('__debug__/', include('debug_toolbar.urls')),
+#     path("ckeditor/", include("ckeditor_uploader.urls")),
+#     path('__debug__/', include('debug_toolbar.urls')),
 
 ]
 # if settings.DEBUG:
@@ -26,4 +26,4 @@ urlpatterns = [
 #         settings.STATIC_URL, document_root=settings.STATIC_ROOT
 #     )
 
-urlpatterns += [path('silk/', include('silk.urls', namespace='silk'))]
+# urlpatterns += [path('silk/', include('silk.urls', namespace='silk'))]
