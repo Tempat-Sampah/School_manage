@@ -95,8 +95,8 @@ DATABASES = {
         "NAME": "postgres",
         "USER": "postgres",
         "PASSWORD": "GmNbvDOnkFOZB3WiSDG8RgMrVzL2rZ9o",
-        "HOST": "my-django.elyashedayat10.svc:5432",
-        "PORT": "5432",
+        "HOST": "5309c5de-1af9-4607-b08e-2f231ae679fe.hsvc.ir",
+        "PORT": "30937",
     }
 }
 
