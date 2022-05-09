@@ -16,7 +16,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 ALLOWED_HOSTS=['studentschool']
 # ALLOWED_HOSTS = os.getenv("ALLOWED_HOSTS").split(",")
-BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
 SECRET_KEY = 'django-insecure-$wmy7w146)1tfk*4k8o$&1a$#0i-y_m@rjj!v_(38k-18jm@y9'
 # SECRET_KEY = os.getenv("SECRET_KEY")
 DEBUG = False
