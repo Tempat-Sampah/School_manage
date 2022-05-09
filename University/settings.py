@@ -61,8 +61,8 @@ MIDDLEWARE = [
     "config.middleware.SaveIPAddressMiddleware",
 
     # third
-    "silk.middleware.SilkyMiddleware",
-    "debug_toolbar.middleware.DebugToolbarMiddleware",
+#     "silk.middleware.SilkyMiddleware",
+#     "debug_toolbar.middleware.DebugToolbarMiddleware",
 ]
 
 ROOT_URLCONF = "University.urls"
