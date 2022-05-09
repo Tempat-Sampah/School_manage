@@ -96,7 +96,7 @@ DATABASES = {
         "USER": "postgres",
         "PASSWORD": "GmNbvDOnkFOZB3WiSDG8RgMrVzL2rZ9o",
         "HOST": "my-django.elyashedayat10.svc:5432",
-        "PORT": "30937",
+        "PORT": "5432",
     }
 }
 
